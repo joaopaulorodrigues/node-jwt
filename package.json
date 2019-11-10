@@ -2,7 +2,9 @@
   "name": "node-jwt",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts":{"start" : "env-cmd -f ./.env nodemon src/app.js"},
+  "scripts": {
+    "start": "env-cmd -f ./.env nodemon src/app.js"
+  },
   "repository": "https://github.com/joaopaulorodrigues/node-jwt.git",
   "license": "MIT",
   "dependencies": {
@@ -15,6 +17,9 @@
   },
   "devDependencies": {
     "env-cmd": "^10.0.1",
+    "eslint": "^6.6.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-vue": "^6.0.0",
     "nodemon": "^1.19.4"
   }
 }
